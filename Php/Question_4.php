@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 
 <!DOCTYPE html>
 <html>
@@ -13,38 +17,19 @@
         <input type="text" />
     </form>
   <br>
-  <div>
-    <table>
-      <thead>
-        <tr>
-          <th>Nom</th>
-          <th>Prénom</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-            <th>Pelo</th>
-            <th>Pierre</th>
-        </tr>
-        <tr>
-            <th>Octo</th>
-            <th>Pus</th>
-        </tr>
-        <tr>
-            <th>Oui</th>
-            <th>Stiti</th>
-        </tr>
-        <tr>
-            <th>Quoi</th>
-            <th>Feur</th>
-        </tr>
-        <tr>
-            <th>Non</th>
-            <th>Bril</th>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<div>
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+</div>
 
 </body>
 </html>
