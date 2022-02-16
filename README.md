@@ -1,9 +1,9 @@
 # Php_et_MySQL
 
-Qquestion 2 : 
+Qquestion 2 :   
 B) Select * FROM `personnage` 
 
-Question 3 : 
+Question 3 :   
 B) SELECT * FROM `personnage` INNER JOIN voiture WHERE id_voiture = voiture.id
 
 C) SELECT * FROM `personnage` INNER JOIN voiture WHERE id_sport = sport.id
