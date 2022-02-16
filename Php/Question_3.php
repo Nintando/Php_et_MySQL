@@ -11,7 +11,10 @@
     echo $class->getInfo();
 
     function lvlUp(){
-        
+        $class = new Guerrier (1,"Pierre","20",100,"hache");
+        $class->setNiveau(+1);
+        $class->setForce(+50);
+        echo $class->getInfo();
     }
 
     function AttaqueCoupDeHache(){
