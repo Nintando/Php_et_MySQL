@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Feb 16, 2022 at 03:25 PM
+-- Generation Time: Feb 16, 2022 at 03:30 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `personnage` (
   `id_voiture` int(11) NOT NULL,
   `id_sport` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `personnage`
@@ -44,7 +44,8 @@ CREATE TABLE IF NOT EXISTS `personnage` (
 
 INSERT INTO `personnage` (`id`, `nom`, `espèce`, `age`, `id_voiture`, `id_sport`) VALUES
 (1, 'Bob', 'Eponge', 20, 1, 3),
-(2, 'Patrick', 'Etoile de mer', 20, 3, 4);
+(2, 'Patrick', 'Etoile de mer', 20, 3, 4),
+(3, 'Bob', 'Eponge', 20, 2, 4);
 
 -- --------------------------------------------------------
 
