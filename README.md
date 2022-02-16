@@ -3,7 +3,7 @@
 # Php_et_MySQL
 
 Qquestion 2 :   
-B) Select * FROM `personnage` 
+B) Il faut faire un insert 
 
 Question 3 :   
 B) SELECT * FROM `personnage` INNER JOIN voiture WHERE id_voiture = voiture.id
